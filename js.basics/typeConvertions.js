@@ -14,6 +14,8 @@ console.log("" * 3) // => 0
 console.log( Number("      123     ")); //=> number 123
 // boolean("0") because it is a string
 // boolean(" ") also true
+// at least one string can convert everything into its type
+console.log(1+2+3+"4");//=>result is "1234"
 
 
 
