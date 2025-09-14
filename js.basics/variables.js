@@ -3,7 +3,7 @@
 
 // Dynamic typing => means that i dont need to write whether the variable contains string,number,boolean etc
 let contains; 
-console.log(console.log(contains)); //=>the result is undefined
+console.log(contains); //=>the result is undefined
 
 // const contains; 
 // console.log(contains); => the result is an error
