@@ -95,3 +95,23 @@ let mol = { age: 30 };
 
 let key = "age";
 console.log( key in mol ); // true
+
+
+// For in
+let team = {
+  goalkeaper:"Mee",
+  centerBack:"Olx",
+  striker:"Ron",
+}
+for(let key in team){
+  console.log(key+":"+" "+team[key]);
+  // goalkeaper: Mee
+// centerBack: Olx
+// striker: Ron
+}
+// We dont need to put how many times the iterations should work because "for in" always checks the whole object which means
+// 6 keys in object:6 iterations,2 keys in object,2 iterations
+
+// in the example let key = each key of the object
+// [key] == the value of each key
+
