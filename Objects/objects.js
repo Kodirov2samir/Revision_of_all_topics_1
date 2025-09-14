@@ -74,4 +74,24 @@ console.log(makeUser("dam",20)); //{ name: 'dam', age: 20 }
 // in javascript we can get the element even if it doesnt exist
 let user = {};
 
-alert( user.noSuchProperty === undefined ); // true
+console.log( user.noSuchProperty === undefined ); // true
+
+
+
+
+
+// There is a specila property "in"
+// the function of "in" is to findout if the key exists in the object:
+let obj3 = {
+  name:"tr",
+  age:13,
+  hobby:"foolbal"
+}
+console.log("name" in obj3); //true
+console.log("food" in obj3); //false
+
+
+let mol = { age: 30 };
+
+let key = "age";
+console.log( key in mol ); // true
