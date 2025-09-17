@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////Copying objects/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////Copying objects/////////////////////////////////////////////
 // in js to copy variables we would do 
 let hi = "hello"
 let wow = hi
@@ -30,7 +30,7 @@ console.log(obj1);//{ name: 'Ben', age: 40 }
 console.log(es);//{ name: 'Tom', age: 40 }
 //As we can see changes are made only in es while obj1 remained untouched
 
-// Of we can youse Object.assign
+// Or we can youse Object.assign
 
 let duobl = {
   hobby:"Playing ball",
