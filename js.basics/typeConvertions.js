@@ -12,7 +12,7 @@ console.log("" + 3);//=> string three
 console.log("" * 3) // => 0
 // when we do Number() spaces are being ommited
 console.log( Number("      123     ")); //=> number 123
-// boolean("0") because it is a string
+// boolean("0") is true because it is a string
 // boolean(" ") also true
 // at least one string can convert everything into its type
 console.log(1+2+3+"4");//=>result is "1234"

@@ -69,7 +69,7 @@ console.log( idss === idAgain ); // true
 
 
 
-// If now we were getting the symbol byt hte name now we can find the by the symbol
+// If now we were getting the symbol by the name now we can find them by the symbol
 // to do this we have Symbol.keyFor()
 let sym = Symbol.for("laptop") //For is needed without it the result is undefined 
 

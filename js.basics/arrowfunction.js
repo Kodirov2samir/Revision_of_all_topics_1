@@ -1,4 +1,4 @@
-//////////////////////////////////////////////////Arrow function////////////////////////////////////////////////////////
+//////////////////////////////////////////////////Arrow function////////////////////////////////////////////////////
 // arrow function is jyst a shorter version of a function 
 // if it is declaration
 function sum(a,b) {
@@ -20,5 +20,5 @@ root(49)//7
 let greet = () => console.log("hello");
 greet() //Hello
 
-// return doesnt work in arrow functions
+// return doesnt work in arrow functions if it is only one line
  

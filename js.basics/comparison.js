@@ -132,8 +132,8 @@ console.log(null >= 0);//true
 // comparing undefined to a zero
 console.log(undefined > 0);//false
 //or
-console.log(undefined > 0);//false
-// so that is logical because < > sign converts to a number as isaid before and undefined  is NaN so any comprison with NaN is false
+console.log(undefined < 0);//false
+// so that is logical because < > sign converts to a number as i said before, undefined  is NaN so any comprison with NaN is false
 // however undefined == 0 has to be true? No because it is javascript
 // undefined is always false unless it is compare to a null
 // i didnt mention that if we compare string "12" and "2" that answer will be  true is that weird? yes because

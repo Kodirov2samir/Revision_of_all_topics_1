@@ -19,6 +19,7 @@ const sum = 20
 console.log(typeof sum);//=> number
 console.log(typeof Boolean(sum));//=>boolean
 
+console.log(typeof Infinity); //number
 
 
 

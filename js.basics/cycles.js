@@ -1,4 +1,4 @@
-// /////////////////////////////////////////Cycles(loops)/////////////////////////////////////////////////////////////
+// /////////////////////////////////////////Cycles(loops)//////////////////////////////////////////////////////////
 // while =>while has this syntax
 // while(condition){body of the cycle} 
 let i = 0
@@ -8,7 +8,7 @@ while(i < 10){
 }
 // one full work of cycle is called iteration
 // do while
-// we need do while to mak a function work at least once
+// we need do while to make a function work at least once
 let j =5
 
 do{
