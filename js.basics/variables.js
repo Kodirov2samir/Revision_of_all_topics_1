@@ -8,3 +8,5 @@ console.log(contains); //=>the result is undefined
 // const contains; 
 // console.log(contains); => the result is an error
 // Use const when you can, and use let when you have to.
+
+  
