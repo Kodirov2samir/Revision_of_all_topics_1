@@ -19,7 +19,7 @@ console.log(2e-6); //0.000002
 //To string base shows the number in hex,octal or binary numbers
 //we need this to protect the code(kodirovanie)
 // there are 4 most used number systems
-//1) base(2) =>Binary 0b
+//1) base(2) =>Binary b
 //2) base(8) =>Octal 0o
 //3)base(10) =>decimal(normal number)
 //4)base(16) =>hex(ox)
