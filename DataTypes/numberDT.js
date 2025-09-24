@@ -7,13 +7,13 @@ console.log(120_000_000);
 //3)Writing "e"
 console.log(1e6); //1000000
 //In the third way i literally say add to a number 1, 6 zeroes
-// Ot this one
+// Or this one
 console.log(6e2); //600
 // Here i say add to the six two zeroes
+
 // With this method we can write small numbers also for ex: 0,0000002
 console.log(2e-6); //0.000002
 // So it says put 6 zeroes before 2
-// however it only works till 6 not 7
 
 //toString(base)/Hex, binary and octal numbers
 //To string base shows the number in hex,octal or binary numbers
