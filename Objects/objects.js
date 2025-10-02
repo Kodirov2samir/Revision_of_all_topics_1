@@ -8,7 +8,7 @@ let obj1 = {}
 console.log(obj1);
 
 
-// we can also delete something form objects by using "delete"
+// we can also delete something from objects by using "delete"
 let exampleobj = {
   name:"Samir",
   age:20
@@ -51,7 +51,7 @@ obj2.pepsi = true
 console.log(obj2); //Also correct
 
 
-// we also use square brackets to put value oas a prompt
+// we also use square brackets to put value as a prompt
 // let fruit = prompt("Какой фрукт купить?", "apple");
 
 // let bag = {

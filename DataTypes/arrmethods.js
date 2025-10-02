@@ -81,3 +81,21 @@ console.log(countries.sort((a, b) => a.localeCompare(b))); // Andorra,Österreic
 //it is a function that helps us to check if something is an array
 console.log(Array.isArray(["hi", 1])); //true
 console.log(Array.isArray({ name: "Samir" })); //false
+
+//Array from is a metgod that makes an array from anything
+let str = "hello"
+console.log(Array.from(str));//[ 'h', 'e', 'l', 'l', 'o' ]
+let obj ={
+  name:"samir",
+  age:20
+}
+console.log(Array.from(obj));//[] here it xould make a massive because obj cannot be a massive
+
+let arrayLike = {
+  0: "Hello",
+  1: "World",
+  length: 2
+};
+
+let arrs = Array.from(arrayLike); // (*)
+console.log(arrs);// [ 'Hello', 'World' ]
