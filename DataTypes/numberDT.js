@@ -50,7 +50,7 @@ let sum = 0.1 + 0.2;
 console.log(sum.toFixed(2)); //0.30
 console.log(0.1 + 0.2 === sum); //True
 
-// To check the numberif it is infinity or number we have two methods
+// To check the number, if it is infinity or number we have two methods
 //1)isNaN
 console.log(isNaN(20)); //False
 console.log(isNaN("str")); //True
@@ -89,7 +89,9 @@ console.log(Number.isNaN("str")); //false =>because even if Number("str") == NaN
 console.log(isNaN("str")); //true => because Number("str")
 
 console.log(Number.isNaN(25)); //false => even if it is a number however it is not NaN
-
+//number is NaN returbs true if the value is NaN
+console.log(Number.isNaN(NaN));//true
+console.log(Number.isNaN(Math.sqrt(-1)));//true because it is also NaN
 // Number.isFinite(value) возвращает true только в том случае, если аргумент принадлежит к типу number и не является NaN/Infinity/-Infinity. Во всех остальных случаях возвращает false.
 
 // There is a method Object.is => it is the same with === strict comparison

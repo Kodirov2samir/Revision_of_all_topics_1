@@ -53,7 +53,7 @@ weakMap.has(key)
 
 // So there is a reason for that. Here javascript itself decide when to delete the object it can be later or immediately, shortly whenever, and the size of the weakmap is unknown, for that reason weakmap dont have access for all the elements inside of itself
 
-// So why do we need weakmap, the answer is: If we are working with the objects that bleong to other code or objects from libraries, we need to save tjis object to weakmap because in case the object is delted it will also be deleted for us, that is why it will not litter our memory
+// So why do we need weakmap, the answer is: If we are working with the objects that belong to other code or objects from libraries, we need to save this object to weakmap because in case the object is deleted it will also be deleted for us, that is why it will not litter our memory
 
 //weakMap.set(john, "секретные документы");
 // если john умрёт, "секретные документы" будут автоматически уничтожены

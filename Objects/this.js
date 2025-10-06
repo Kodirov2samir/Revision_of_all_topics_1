@@ -17,8 +17,6 @@ let shorter = {
 shorter.name()
 // It is preferable to use the shorter one
 
-
-
 //////////////////////////////////////////////////////This/////////////////////////////////////////////////////////
 // Actually we can always use obj.name instead of this.name for example
 let objThis ={

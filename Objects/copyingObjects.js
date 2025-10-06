@@ -30,7 +30,7 @@ console.log(obj1);//{ name: 'Ben', age: 40 }
 console.log(es);//{ name: 'Tom', age: 40 }
 //As we can see changes are made only in es while obj1 remained untouched
 
-// Or we can youse Object.assign
+// Or we can use Object.assign
 
 let duobl = {
   hobby:"Playing ball",
@@ -41,7 +41,7 @@ let doubles ={
 }
 let sum = {}
 console.log(Object.assign(sum,...[duobl,doubles]));
-console.log(sum);
+console.log(sum);//{ hobby: 'Playing ball', hates: 'Movies', cares: 'Mom' }
 // In this method we dont just copy we just connect two object to double we could judt elemenate sum and make doubles empty
 let ew = {
   hobby:"They",

@@ -84,7 +84,7 @@ console.log(~~3.4);//3
 
 // In includes() there is a second parameter position which shows the position
 
-// str.stringify is the same with str.slice, however if the start(first parmeter) is bigger then the second stringify just swaps their places, while slice cant do it
+// str.substring is the same with str.slice, however if the start(first parmeter) is bigger then the second substring just swaps their places, while slice cant do it
 
 let vc = "vanilla"
 console.log(vc.slice(1,4));//ani
