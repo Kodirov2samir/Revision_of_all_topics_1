@@ -104,53 +104,40 @@
 //  as we can see the lower  letter is in the alphabet the higher its index is so that is why
 console.log("z" > "a"); //is true
 // and also upper case is lower than the lowecase
-console.log("A" <"a");//true
+console.log("A" < "a"); //true
 //or
-console.log("Z" < "a");//true
+console.log("Z" < "a"); //true
 // comparing different types
 // when we compare string and the number string will be converted into a number
-console.log("2" > 1);//true as number 2 is higher than 1
+console.log("2" > 1); //true as number 2 is higher than 1
 // and also this
-console.log("002" > 1);//true as technically 002 in number is 2
+console.log("002" > 1); //true as technically 002 in number is 2
 // however if the converted strig into a number is NaN for example "abc" or "hello" the result is always false
-console.log("sam" < 1000);//false
-console.log("sam" > 1000);// also false
+console.log("sam" < 1000); //false
+console.log("sam" > 1000); // also false
 // when we compare undefined with a nul in strict comparison the result is false
-console.log(undefined === null);//false
+console.log(undefined === null); //false
 //however in simple it is true
-console.log(undefined == null);//true
+console.log(undefined == null); //true
 // Comparing null with a zero
 //if we compare zero and null in normal equality sign the result is false
-console.log(null == 0);//false
+console.log(null == 0); //false
 // and also higher and lower is also false
-console.log(null < 0);//false
-console.log(null > 0);//false
+console.log(null < 0); //false
+console.log(null > 0); //false
 // however when we say that null is higher or equal to 0 the result is true
-console.log(null >= 0);//true
+console.log(null >= 0); //true
 // so that is weird null == 0 is false and null >= 0 is true, but there is a reson for that.
 // Thats because == and < > >= <= work differently < > >= <=  converts null to a number while == doesnt
 // comparing undefined to a zero
-console.log(undefined > 0);//false
+console.log(undefined > 0); //false
 //or
-console.log(undefined < 0);//false
+console.log(undefined < 0); //false
 // so that is logical because < > sign converts to a number as i said before, undefined  is NaN so any comprison with NaN is false
 // however undefined == 0 has to be true? No because it is javascript
 // undefined is always false unless it is compare to a null
 // i didnt mention that if we compare string "12" and "2" that answer will be  true is that weird? yes because
 // < > convert items into a number when it is compared to a number but "12" < "2" are still string so we compare first symbols by the table of index there "1" is smaller than "2"
-console.log("12" < "2");//true
-// however "12" < 2 is false because 12 is converted into a number 
-console.log("12" < 2);//false
-
-
-
-
-
-
-
- 
-
-
-
-
- 
+console.log("12" < "2"); //true
+// however "12" < 2 is false because 12 is converted into a number
+console.log("12" < 2); //false

@@ -116,3 +116,8 @@ let eng = "a"
 let engLast = "z"
 console.log(rus.localeCompare(eng));//-1
 console.log(rus > eng);//-1
+
+let dd = [1,2,3,4,5,6,7]
+dd.splice(5,1)
+console.log(dd);
+

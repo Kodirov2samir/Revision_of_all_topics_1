@@ -82,3 +82,5 @@ console.log(visitedSet.has(john4)); // true
 console.log(visitedSet.has(mary)); // false
 john4 = null;
 // структура данных visitedSet будет очищена автоматически (объект john будет удалён из visitedSet)
+
+
