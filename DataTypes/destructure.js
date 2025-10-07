@@ -93,6 +93,37 @@ console.log(defagearr2);//age is not given, because there is no age in the array
 // alert(name3);    // Julius (from array)
 // alert(surnames); // whatever prompt gets
 
+/////////////////////////////////////////Destructuring objects//////////////////////////////////////////////////////
+//Note to destructure objects we use curly brackets {}, not squuare [], othervice there will be a mistake
+let options = {
+  title: "Menu",
+  width: 100,
+  height: 200,
+  place:"Namangan"
+};
+
+let { width, height,title,plc} = options;
+console.log(title);//Menu
+console.log(width);//100
+console.log(height);//200
+console.log(plc);//undefined because the key named plc doesnt exist
+//Note the name of the variable should be the same with a key
+//And the order doesnt matter
+//if the key doestn exist there will be a mistake
+
+//if we want to make code more beautiful we can do
+let hobby = {
+hobby1:"football",
+hobby2:"chess",
+hobby3:"music",
+}
+let {hobby1: f="nothing", hobby2:c,hobby3:m,hobby4:d="default"} = hobby
+//here we say the value of hobby1 will be in the variable called f, and so on
+console.log(f);//football, not nothing because football is given
+console.log(c);//chess
+console.log(m);//music
+console.log(d);//default as value is not given
+//default is put in the same way
 
 
 
