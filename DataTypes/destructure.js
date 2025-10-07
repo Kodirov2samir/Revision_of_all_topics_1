@@ -126,5 +126,65 @@ console.log(d);//default as value is not given
 //default is put in the same way
 
 
+///////////////////////////////////////////////the rest "..." in objects/////////////////////////////////////////////
+//... work in objects work the same as in arrays, but some browsers do not support it
+let obj10 ={
+  name:"Mat",
+  surname:"Edinson",
+  age:10
+}
+const {age: howOld = "age is not given",...rest1} = obj10
+console.log(howOld);//10
+console.log(rest1);//{ name: 'Mat', surname: 'Edinson' }
+
+
+
+
+////////////////////////////////////////////////////Nested destructure/////////////////////////////////////////////
+let options1 = {
+  size: {
+    width: 100,
+    height: 200
+  },
+  items: ["Cake", "Donut"],
+  extra: true
+};
+
+// деструктуризация разбита на несколько строк для ясности
+let {
+  size: { // положим size сюда
+    width1,
+    height1
+  },
+  items: [item1, item2], // добавим элементы к items
+  title1 = "Menu" // отсутствует в объекте (используется значение по умолчанию)
+} = options1;
+
+///////////////////////////////////Smart function parameters//////////////////////////////////////////////////////
+//sometimes we may have a big amount of items given to the fucntion as an argument, and there are two ways of working with these arguments
+//1)Dirty method
+function showMenu(title = "Untitled", width = 200, height = 100, items = []) {
+  
+}
+// undefined where default values are fine
+showMenu("My Menu", undefined, undefined, ["Item1", "Item2"])
+//2)Clear method
+let options3 = {
+  title: "My menu",
+  items: ["Item1", "Item2"]
+};
+
+// ...and it immediately expands it to variables
+function showMenu({title = "Untitled", width = 200, height = 100, items = []}) {
+  // title, items – taken from options,
+  // width, height – defaults used
+  console.log( `${title} ${width} ${height}` ); // My Menu 200 100
+  console.log( items ); // Item1, Item2
+}
+
+showMenu(options3);
+
+//to make all value to be obj by default we do:
+//function showMenu({ title = "Menu", width = 100, height = 200 } = {})
 
  
