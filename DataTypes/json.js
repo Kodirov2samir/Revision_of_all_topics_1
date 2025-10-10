@@ -67,3 +67,11 @@ console.log( JSON.stringify(user1) ); // {} (empty object)
 //What is ref? B:ask a about this
 // console.log(JSON.stringify(circRef));//error
 
+//The full syntax lokks like this:
+//let json = JSON.stringify(value[, replacer, space])
+
+///////////////////////////////////////////////Json.parse////////////////////////////////////////////////////////////
+//the syntax lokks like this:let value = JSON.parse(str[, reviver]);
+//we use json.parse to decode the object or array from string to a simple object
+console.log(JSON.parse([1]));//1
+//Json doean support the comments
