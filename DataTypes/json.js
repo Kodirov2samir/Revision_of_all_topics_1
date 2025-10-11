@@ -75,3 +75,5 @@ console.log( JSON.stringify(user1) ); // {} (empty object)
 //we use json.parse to decode the object or array from string to a simple object
 console.log(JSON.parse([1]));//1
 //Json doean support the comments
+let df = 20..toString(2)
+console.log(df + 10..toString(2 ))
